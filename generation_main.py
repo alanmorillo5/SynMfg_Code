@@ -318,6 +318,7 @@ def generate(nr_images_to_generate, nr_blender_instances, current_image_index):
     progress_queue.join_thread()
 
 if __name__ == '__main__':
+    os.environ['BLENDER_PATH'] = r"C:\Program Files\Blender Foundation\Blender 3.4\blender.exe"
     blender_path = os.getenv('BLENDER_PATH')
     print (blender_path)
 
