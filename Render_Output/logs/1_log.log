@@ -1,0 +1,81 @@
+2025-12-08 22:53:42 Use existing Collection: collection_cable_shoe.obj_object
+2025-12-08 22:53:42 Set object name: object_cable_shoe.obj0
+2025-12-08 22:53:42 Set object rotation x: 25.3017245881793, y: 191.08225700694717
+2025-12-08 22:53:42 Use existing Collection: collection_bonnet.obj_object
+2025-12-08 22:53:42 Set object name: object_bonnet.obj0
+2025-12-08 22:53:42 Set object rotation x: 191.84975356394304, y: 230.06112718891313
+2025-12-08 22:53:42 Use existing Collection: collection_ball.obj_object
+2025-12-08 22:53:42 Set object name: object_ball.obj0
+2025-12-08 22:53:42 Set object rotation x: 42.57440969886026, y: 1.1317365561184722
+2025-12-08 22:53:42 Use existing Collection: collection_angle_bracket.obj_object
+2025-12-08 22:53:42 Set object name: object_angle_bracket.obj0
+2025-12-08 22:53:42 Set object rotation x: 309.71964532715475, y: 300.1218029835599
+2025-12-08 22:53:42 Use existing Collection: collection_body.obj_object
+2025-12-08 22:53:42 Set object name: object_body.obj0
+2025-12-08 22:53:42 Set object rotation x: 325.19300787588884, y: 274.45744750347967
+2025-12-08 22:53:42 Use existing Collection: collection_U-bracket.obj_object
+2025-12-08 22:53:42 Set object name: object_U-bracket.obj0
+2025-12-08 22:53:42 Set object rotation x: 78.22387650749017, y: 126.79999970669111
+2025-12-08 22:53:42 Set object name: object_cable_shoe.obj0_1_duplicate
+2025-12-08 22:53:42 Set object rotation x: 167.63041121251985, y: 167.542400140194
+2025-12-08 22:53:42 Set object texture for: collection_2_cube_distractor
+2025-12-08 22:53:42 Final texture type: 2 (random texture=0, color texture=1, image texture=2, procedural texture=3, material texture=4, none=5)
+2025-12-08 22:53:42 Set BSDF property: Metallic=0.7572990124829966 Specular=0.5097592554920417 Roughness=0.2824222961488667
+2025-12-08 22:53:42 Set image texture: data/Texture_Images/2029280005_a19609c81a.jpg
+2025-12-08 22:53:42 Set object texture for: collection_body.obj_object
+2025-12-08 22:53:42 Final texture type: 1 (random texture=0, color texture=1, image texture=2, procedural texture=3, material texture=4, none=5)
+2025-12-08 22:53:42 Set BSDF property: Metallic=0.7988338632172409 Specular=0.6359270483036112 Roughness=0.3523427883490723
+2025-12-08 22:53:42 Set color texture: (0.6739092186868577, 0.07635717006127996, 0.6538672971709998, 1.0)
+2025-12-08 22:53:42 Set object texture for: collection_cable_shoe.obj_object_1_duplicate
+2025-12-08 22:53:42 Final texture type: 2 (random texture=0, color texture=1, image texture=2, procedural texture=3, material texture=4, none=5)
+2025-12-08 22:53:42 Set BSDF property: Metallic=0.6397894166589255 Specular=0.49293784207887764 Roughness=0.3127216201762163
+2025-12-08 22:53:42 Set image texture: data/Texture_Images/3372215826_b3e6403b2e.jpg
+2025-12-08 22:53:42 Set object texture for: collection_U-bracket.obj_object
+2025-12-08 22:53:42 Final texture type: 2 (random texture=0, color texture=1, image texture=2, procedural texture=3, material texture=4, none=5)
+2025-12-08 22:53:42 Set BSDF property: Metallic=0.5162626017736585 Specular=0.45912284844541884 Roughness=0.4300612411787975
+2025-12-08 22:53:42 Set image texture: data/Texture_Images/3354489242_dd529ffa1f.jpg
+2025-12-08 22:53:42 Set object texture for: collection_angle_bracket.obj_object
+2025-12-08 22:53:42 Final texture type: 2 (random texture=0, color texture=1, image texture=2, procedural texture=3, material texture=4, none=5)
+2025-12-08 22:53:42 Set BSDF property: Metallic=0.47047377279580055 Specular=0.6805128202660051 Roughness=0.5650069795444707
+2025-12-08 22:53:42 Set image texture: data/Texture_Images/1298295313_db1f4c6522.jpg
+2025-12-08 22:53:42 Set object texture for: collection_bonnet.obj_object
+2025-12-08 22:53:42 Final texture type: 3 (random texture=0, color texture=1, image texture=2, procedural texture=3, material texture=4, none=5)
+2025-12-08 22:53:42 Set BSDF Metallic: 0.0
+2025-12-08 22:53:42 Set BSDF Specular: 0.7233817488759955
+2025-12-08 22:53:42 Set BSDF Roughness: 0.3078422062203924
+2025-12-08 22:53:42 Set material texture: data/PBR_Textures/Metal055A ['Metal055A_2K-JPG_Metalness.jpg', 'Metal055A_2K-JPG_NormalDX.jpg', 'Metal055A_2K-JPG_Color.jpg', 'Metal055A_2K-JPG.tres', 'Metal055A_2K-JPG.blend', 'Metal055A.png', 'Metal055A_2K-JPG.mtlx', 'Metal055A_2K-JPG_Roughness.jpg', 'Metal055A_2K-JPG_Displacement.jpg', 'Metal055A_2K-JPG.usdc', 'Metal055A_2K-JPG_NormalGL.jpg']
+2025-12-08 22:53:42 Set object texture for: collection_ball.obj_object
+2025-12-08 22:53:42 Final texture type: 3 (random texture=0, color texture=1, image texture=2, procedural texture=3, material texture=4, none=5)
+2025-12-08 22:53:42 Set BSDF Metallic: 0.0
+2025-12-08 22:53:42 Set BSDF Specular: 0.26427584303670176
+2025-12-08 22:53:42 Set BSDF Roughness: 0.4033592228936822
+2025-12-08 22:53:42 Set material texture: data/PBR_Textures/Metal046B ['Metal046B_2K-JPG.tres', 'Metal046B_2K-JPG_Color.jpg', 'Metal046B_2K-JPG.mtlx', 'Metal046B_2K-JPG_Metalness.jpg', 'Metal046B_2K-JPG_NormalDX.jpg', 'Metal046B_2K-JPG.blend', 'Metal046B_2K-JPG.usdc', 'Metal046B_2K-JPG_NormalGL.jpg', 'Metal046B_2K-JPG_Displacement.jpg', 'Metal046B_2K-JPG_Roughness.jpg', 'Metal046B.png']
+2025-12-08 22:53:42 Set object texture for: collection_cable_shoe.obj_object
+2025-12-08 22:53:42 Final texture type: 2 (random texture=0, color texture=1, image texture=2, procedural texture=3, material texture=4, none=5)
+2025-12-08 22:53:42 Set BSDF property: Metallic=0.28793624131332557 Specular=0.6428456235364415 Roughness=0.6920563855619876
+2025-12-08 22:53:42 Set image texture: data/Texture_Images/1368383637_614646cc4a.jpg
+2025-12-08 22:53:42 Set object texture for: collection_1_uvsphere_distractor
+2025-12-08 22:53:42 Final texture type: 2 (random texture=0, color texture=1, image texture=2, procedural texture=3, material texture=4, none=5)
+2025-12-08 22:53:42 Set BSDF property: Metallic=0.7256139417561387 Specular=0.5152112370437896 Roughness=0.37877363563070787
+2025-12-08 22:53:42 Set image texture: data/Texture_Images/2797188545_aeb26c54c0.jpg
+2025-12-08 22:53:42 Get ground_plane_diagonal=2.494469113455844, ground_plane_diagonal_scale=0.5
+2025-12-08 22:53:42 Set camera: r=3.4645404353553384 phi=36.90064293903542 theta=214.77098917934444 zoom_scale=0.5
+2025-12-08 22:53:42 Set camera focal length =53.74578118640664
+2025-12-08 22:53:42 Set num of lights: 15
+2025-12-08 22:53:42 Set lights #0: location: <Vector (4.3111, 4.5770, 7.6220)> energy: 143.40838623046875 color: <Color (r=0.6341, g=0.9127, b=0.6451)>
+2025-12-08 22:53:42 Set lights #1: location: <Vector (-0.9598, 2.3998, 7.6220)> energy: 131.78147888183594 color: <Color (r=0.1031, g=0.9439, b=0.4055)>
+2025-12-08 22:53:42 Set lights #2: location: <Vector (2.0018, 4.3714, 7.6220)> energy: 103.6806640625 color: <Color (r=0.2620, g=0.4873, b=0.7511)>
+2025-12-08 22:53:42 Set lights #3: location: <Vector (-0.9303, 4.3143, 7.6220)> energy: 137.48388671875 color: <Color (r=0.9376, g=0.6411, b=0.7146)>
+2025-12-08 22:53:42 Set lights #4: location: <Vector (-2.0354, 2.7590, 7.6220)> energy: 17.04560661315918 color: <Color (r=0.5421, g=0.6833, b=0.6645)>
+2025-12-08 22:53:42 Set lights #5: location: <Vector (1.8398, -1.7136, 7.6220)> energy: 132.5354461669922 color: <Color (r=0.1299, g=0.8913, b=0.7935)>
+2025-12-08 22:53:42 Set lights #6: location: <Vector (2.4489, -1.4411, 7.6220)> energy: 136.7720489501953 color: <Color (r=0.0251, g=0.9281, b=0.9374)>
+2025-12-08 22:53:42 Set lights #7: location: <Vector (2.3823, -2.1595, 7.6220)> energy: 64.33843231201172 color: <Color (r=0.9328, g=0.7769, b=0.8807)>
+2025-12-08 22:53:42 Set lights #8: location: <Vector (-2.6183, 4.3215, 7.6220)> energy: 143.15269470214844 color: <Color (r=0.9824, g=0.1343, b=0.3574)>
+2025-12-08 22:53:42 Set lights #9: location: <Vector (0.9740, 0.4974, 7.6220)> energy: 72.19534301757812 color: <Color (r=0.6887, g=0.8591, b=0.5774)>
+2025-12-08 22:53:42 Set lights #10: location: <Vector (2.4772, -1.1278, 7.6220)> energy: 37.08578872680664 color: <Color (r=0.7197, g=0.1990, b=0.9115)>
+2025-12-08 22:53:42 Set lights #11: location: <Vector (-2.2025, 2.4958, 7.6220)> energy: 13.887861251831055 color: <Color (r=0.6918, g=0.1703, b=0.7501)>
+2025-12-08 22:53:42 Set lights #12: location: <Vector (0.2913, 2.6714, 7.6220)> energy: 142.27769470214844 color: <Color (r=0.0654, g=0.3309, b=0.5114)>
+2025-12-08 22:53:42 Set lights #13: location: <Vector (0.8083, -0.3719, 7.6220)> energy: 67.07498168945312 color: <Color (r=0.1154, g=0.0800, b=0.5691)>
+2025-12-08 22:53:42 Set lights #14: location: <Vector (-3.0014, 3.1518, 7.6220)> energy: 74.33528137207031 color: <Color (r=0.8348, g=0.6025, b=0.2261)>
+2025-12-08 22:54:06 Rendered image to path: /Users/alanmorillo/waldo/SynMfg_Code/Render_Output/images filename: 1
+2025-12-08 22:54:06 Time passed: 24.37118697166443

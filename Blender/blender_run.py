@@ -1002,6 +1002,20 @@ def enable_compositing(segment_out_path, index, current_object_pass_index):
     color_ramp = bpy.data.scenes["Scene"].node_tree.nodes.new("CompositorNodeValToRGB")
     color_ramp.color_ramp.elements.remove(color_ramp.color_ramp.elements[0])
 
+    scene = bpy.data.scenes["Scene"]
+
+    tree = scene.node_tree
+    nodes = tree.nodes
+    links = tree.links
+
+    # Ensure ColorRamp exists
+    color_ramp = nodes.get("ColorRamp")
+    if color_ramp is None:
+        color_ramp = nodes.new(type="CompositorNodeValToRGB")
+        color_ramp.name = "ColorRamp"
+        print("Created missing ColorRamp node")
+
+
     bpy.data.scenes["Scene"].node_tree.nodes["ColorRamp"].color_ramp.interpolation = 'CONSTANT'
 
     color_ramp.color_ramp.elements.new(0.0)
@@ -1441,23 +1455,10 @@ if __name__ == '__main__':
     bpy.context.scene.render.threads = 2
 
     # enable GPU computing
-    bpy.context.preferences.addons['cycles'].preferences.compute_device_type = 'CUDA'
+    bpy.context.preferences.addons['cycles'].preferences.compute_device_type = 'METAL'
     bpy.data.scenes["Scene"].cycles.device = "GPU"
 
     bus_ids = []
-    try:
-        # Query nvidia-smi for bus IDs
-        nvidia_smi_output = subprocess.check_output(
-            ["nvidia-smi", "--query-gpu=pci.bus_id", "--format=csv,noheader"],
-            text=True
-        )
-        bus_ids = [line.strip().split('.')[0].lower()[4:] for line in nvidia_smi_output.splitlines()]
-    except Exception as e:
-        print(f"Error fetching nvidia-smi bus IDs: {e}")
-
-
-    # Get bus IDs from nvidia-smi
-    print("Visible Bus IDs from nvidia-smi:", bus_ids)
 
     if config_gpu_ordinal != -1:
         bus_ids = [bus_ids[config_gpu_ordinal]]
@@ -1472,7 +1473,7 @@ if __name__ == '__main__':
     # Filter devices in Generation based on Bus ID
     for device in prefs.devices:
         # Parse Bus ID from device["id"] string
-        if device.type == "CUDA":
+        if device.type == "METAL":
             bus_id = device["id"].split("_")[-1]  # Extract "0000:4e:00"
             if bus_id in bus_ids:
                 print(f"Enabled GPU: {device.name} with Bus ID {bus_id}")

@@ -1,0 +1,32 @@
+2025-12-08 22:53:23 Set object texture for: collection_3_uvsphere_distractor
+2025-12-08 22:53:23 Final texture type: 3 (random texture=0, color texture=1, image texture=2, procedural texture=3, material texture=4, none=5)
+2025-12-08 22:53:23 Set BSDF Metallic: 0.0
+2025-12-08 22:53:23 Set BSDF Specular: 0.6926837867988573
+2025-12-08 22:53:23 Set BSDF Roughness: 0.5481004530345318
+2025-12-08 22:53:23 Set material texture: data/PBR_Textures/Metal049A ['Metal049A.png', 'Metal049A_2K-JPG_Metalness.jpg', 'Metal049A_2K-JPG_Color.jpg', 'Metal049A_2K-JPG_Displacement.jpg', 'Metal049A_2K-JPG.usdc', 'Metal049A_2K-JPG_NormalDX.jpg', 'Metal049A_2K-JPG_NormalGL.jpg', 'Metal049A_2K-JPG_Roughness.jpg', 'Metal049A_2K-JPG.blend', 'Metal049A_2K-JPG.mtlx', 'Metal049A_2K-JPG.tres']
+2025-12-08 22:53:23 Set object texture for: collection_1_cube_distractor
+2025-12-08 22:53:23 Final texture type: 3 (random texture=0, color texture=1, image texture=2, procedural texture=3, material texture=4, none=5)
+2025-12-08 22:53:23 Set BSDF Metallic: 0.0
+2025-12-08 22:53:23 Set BSDF Specular: 0.35789050418608814
+2025-12-08 22:53:23 Set BSDF Roughness: 0.39850853521596286
+2025-12-08 22:53:23 Set material texture: data/PBR_Textures/Metal046B ['Metal046B_2K-JPG.tres', 'Metal046B_2K-JPG_Color.jpg', 'Metal046B_2K-JPG.mtlx', 'Metal046B_2K-JPG_Metalness.jpg', 'Metal046B_2K-JPG_NormalDX.jpg', 'Metal046B_2K-JPG.blend', 'Metal046B_2K-JPG.usdc', 'Metal046B_2K-JPG_NormalGL.jpg', 'Metal046B_2K-JPG_Displacement.jpg', 'Metal046B_2K-JPG_Roughness.jpg', 'Metal046B.png']
+2025-12-08 22:53:23 Set object texture for: collection_2_uvsphere_distractor
+2025-12-08 22:53:23 Final texture type: 1 (random texture=0, color texture=1, image texture=2, procedural texture=3, material texture=4, none=5)
+2025-12-08 22:53:23 Set BSDF property: Metallic=0.7286140920683624 Specular=0.7075068847977111 Roughness=0.43333740399606524
+2025-12-08 22:53:23 Set color texture: (0.4675252385356665, 0.18259550961885418, 0.11184850519860978, 1.0)
+2025-12-08 22:53:23 Set object texture for: collection_5_cone_distractor
+2025-12-08 22:53:23 Final texture type: 1 (random texture=0, color texture=1, image texture=2, procedural texture=3, material texture=4, none=5)
+2025-12-08 22:53:23 Set BSDF property: Metallic=0.21587170115758958 Specular=0.49568026943305726 Roughness=0.25352697387812845
+2025-12-08 22:53:23 Set color texture: (0.6765085957899002, 0.5935290537485111, 0.37456499799574317, 1.0)
+2025-12-08 22:53:23 Set object texture for: collection_4_monkey_distractor
+2025-12-08 22:53:23 Final texture type: 1 (random texture=0, color texture=1, image texture=2, procedural texture=3, material texture=4, none=5)
+2025-12-08 22:53:23 Set BSDF property: Metallic=0.20495046261759237 Specular=0.41393665697795534 Roughness=0.48853742556492147
+2025-12-08 22:53:23 Set color texture: (0.545317458719023, 0.23142740124371364, 0.1807399570851066, 1.0)
+2025-12-08 22:53:23 Get ground_plane_diagonal=0.4242640687119285, ground_plane_diagonal_scale=0.5
+2025-12-08 22:53:23 Set camera: r=0.5892556509887895 phi=18.792189370463174 theta=313.8154004186013 zoom_scale=0.5
+2025-12-08 22:53:23 Set camera focal length =58.405966426028485
+2025-12-08 22:53:23 Set num of lights: 2
+2025-12-08 22:53:23 Set lights #0: location: <Vector (0.6367, 0.4482, 1.2964)> energy: 102.22965240478516 color: <Color (r=0.4929, g=0.4029, b=0.7828)>
+2025-12-08 22:53:23 Set lights #1: location: <Vector (-0.1315, 0.3494, 1.2964)> energy: 31.276887893676758 color: <Color (r=0.0710, g=0.1169, b=0.4898)>
+2025-12-08 22:53:42 Rendered image to path: /Users/alanmorillo/waldo/SynMfg_Code/Render_Output/images filename: 0
+2025-12-08 22:53:42 Time passed: 18.747950077056885

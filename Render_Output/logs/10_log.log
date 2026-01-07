@@ -1,0 +1,40 @@
+2025-12-08 22:53:23 Use existing Collection: collection_angle_bracket.obj_object
+2025-12-08 22:53:23 Set object name: object_angle_bracket.obj0
+2025-12-08 22:53:23 Set object rotation x: 215.10726020868952, y: 162.8830452629344
+2025-12-08 22:53:23 Use existing Collection: collection_ball.obj_object
+2025-12-08 22:53:23 Set object name: object_ball.obj0
+2025-12-08 22:53:23 Set object rotation x: 82.00627804130318, y: 277.9947303966516
+2025-12-08 22:53:23 Set object texture for: collection_1_cylinder_distractor
+2025-12-08 22:53:23 Final texture type: 1 (random texture=0, color texture=1, image texture=2, procedural texture=3, material texture=4, none=5)
+2025-12-08 22:53:23 Set BSDF property: Metallic=0.5851946034742961 Specular=0.5790859167954667 Roughness=0.545332121607807
+2025-12-08 22:53:23 Set color texture: (0.7188385309774523, 0.11050120037750921, 0.6508976261678139, 1.0)
+2025-12-08 22:53:23 Set object texture for: collection_angle_bracket.obj_object
+2025-12-08 22:53:23 Final texture type: 3 (random texture=0, color texture=1, image texture=2, procedural texture=3, material texture=4, none=5)
+2025-12-08 22:53:23 Set BSDF Metallic: 0.0
+2025-12-08 22:53:23 Set BSDF Specular: 0.2645817875279186
+2025-12-08 22:53:23 Set BSDF Roughness: 0.40146976701078285
+2025-12-08 22:53:23 Set material texture: data/PBR_Textures/Metal049A ['Metal049A.png', 'Metal049A_2K-JPG_Metalness.jpg', 'Metal049A_2K-JPG_Color.jpg', 'Metal049A_2K-JPG_Displacement.jpg', 'Metal049A_2K-JPG.usdc', 'Metal049A_2K-JPG_NormalDX.jpg', 'Metal049A_2K-JPG_NormalGL.jpg', 'Metal049A_2K-JPG_Roughness.jpg', 'Metal049A_2K-JPG.blend', 'Metal049A_2K-JPG.mtlx', 'Metal049A_2K-JPG.tres']
+2025-12-08 22:53:23 Set object texture for: collection_ball.obj_object
+2025-12-08 22:53:23 Final texture type: 1 (random texture=0, color texture=1, image texture=2, procedural texture=3, material texture=4, none=5)
+2025-12-08 22:53:23 Set BSDF property: Metallic=0.2050787924024403 Specular=0.6478774254329233 Roughness=0.4120881527534381
+2025-12-08 22:53:23 Set color texture: (0.05079689231698825, 0.6624722548634538, 0.35023194132500546, 1.0)
+2025-12-08 22:53:23 Set object texture for: collection_3_uvsphere_distractor
+2025-12-08 22:53:23 Final texture type: 1 (random texture=0, color texture=1, image texture=2, procedural texture=3, material texture=4, none=5)
+2025-12-08 22:53:23 Set BSDF property: Metallic=0.7349073625556164 Specular=0.4070092023619885 Roughness=0.5879381708232039
+2025-12-08 22:53:23 Set color texture: (0.817748485702198, 0.9043362832115197, 0.3570219292608485, 1.0)
+2025-12-08 22:53:23 Set object texture for: collection_2_uvsphere_distractor
+2025-12-08 22:53:23 Final texture type: 3 (random texture=0, color texture=1, image texture=2, procedural texture=3, material texture=4, none=5)
+2025-12-08 22:53:23 Set BSDF Metallic: 0.0
+2025-12-08 22:53:23 Set BSDF Specular: 0.7081350791411605
+2025-12-08 22:53:23 Set BSDF Roughness: 0.5569321097588682
+2025-12-08 22:53:23 Set material texture: data/PBR_Textures/Metal046B ['Metal046B_2K-JPG.tres', 'Metal046B_2K-JPG_Color.jpg', 'Metal046B_2K-JPG.mtlx', 'Metal046B_2K-JPG_Metalness.jpg', 'Metal046B_2K-JPG_NormalDX.jpg', 'Metal046B_2K-JPG.blend', 'Metal046B_2K-JPG.usdc', 'Metal046B_2K-JPG_NormalGL.jpg', 'Metal046B_2K-JPG_Displacement.jpg', 'Metal046B_2K-JPG_Roughness.jpg', 'Metal046B.png']
+2025-12-08 22:53:23 Get ground_plane_diagonal=0.7035240537531648, ground_plane_diagonal_scale=0.5
+2025-12-08 22:53:23 Set camera: r=0.97711674132384 phi=44.493730178250566 theta=341.81723192742754 zoom_scale=0.5
+2025-12-08 22:53:23 Set camera focal length =44.316003643789614
+2025-12-08 22:53:23 Set num of lights: 4
+2025-12-08 22:53:23 Set lights #0: location: <Vector (-0.5693, -0.2540, 2.1497)> energy: 43.593162536621094 color: <Color (r=0.9525, g=0.3852, b=0.7396)>
+2025-12-08 22:53:23 Set lights #1: location: <Vector (-0.3887, 0.6219, 2.1497)> energy: 61.21133041381836 color: <Color (r=0.0776, g=0.0054, b=0.4667)>
+2025-12-08 22:53:23 Set lights #2: location: <Vector (0.6209, 0.3781, 2.1497)> energy: 76.67993927001953 color: <Color (r=0.1396, g=0.6134, b=0.8281)>
+2025-12-08 22:53:23 Set lights #3: location: <Vector (-0.3648, 0.4961, 2.1497)> energy: 68.94445037841797 color: <Color (r=0.8521, g=0.8176, b=0.6046)>
+2025-12-08 22:53:49 Rendered image to path: /Users/alanmorillo/waldo/SynMfg_Code/Render_Output/images filename: 10
+2025-12-08 22:53:49 Time passed: 25.60676622390747

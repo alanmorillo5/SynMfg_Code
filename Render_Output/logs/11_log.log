@@ -1,0 +1,77 @@
+2025-12-08 22:53:49 Use existing Collection: collection_cable_shoe.obj_object
+2025-12-08 22:53:49 Set object name: object_cable_shoe.obj0
+2025-12-08 22:53:49 Set object rotation x: 307.3972564378214, y: 26.541821702507452
+2025-12-08 22:53:49 Use existing Collection: collection_L-bracket.obj_object
+2025-12-08 22:53:49 Set object name: object_L-bracket.obj0
+2025-12-08 22:53:49 Set object rotation x: 96.6385553311065, y: 240.8749252035299
+2025-12-08 22:53:49 Use existing Collection: collection_body.obj_object
+2025-12-08 22:53:49 Set object name: object_body.obj0
+2025-12-08 22:53:49 Set object rotation x: 80.73367791559994, y: 193.28001256527662
+2025-12-08 22:53:49 Use existing Collection: collection_bonnet.obj_object
+2025-12-08 22:53:49 Set object name: object_bonnet.obj0
+2025-12-08 22:53:49 Set object rotation x: 124.60903542111016, y: 156.41289472826878
+2025-12-08 22:53:49 Set object name: object_bonnet.obj0_1_duplicate
+2025-12-08 22:53:49 Set object rotation x: 4.348223818395764, y: 357.3805279858088
+2025-12-08 22:53:49 Use existing Collection: collection_ball.obj_object
+2025-12-08 22:53:49 Set object name: object_ball.obj0
+2025-12-08 22:53:49 Set object rotation x: 195.15534608774126, y: 171.47838409057744
+2025-12-08 22:53:49 Set object texture for: collection_6_cone_distractor
+2025-12-08 22:53:49 Final texture type: 2 (random texture=0, color texture=1, image texture=2, procedural texture=3, material texture=4, none=5)
+2025-12-08 22:53:49 Set BSDF property: Metallic=0.2937486230478653 Specular=0.273007852862294 Roughness=0.47192867308934566
+2025-12-08 22:53:49 Set image texture: data/Texture_Images/3453544202_3855ab34b6.jpg
+2025-12-08 22:53:49 Set object texture for: collection_7_uvsphere_distractor
+2025-12-08 22:53:49 Final texture type: 2 (random texture=0, color texture=1, image texture=2, procedural texture=3, material texture=4, none=5)
+2025-12-08 22:53:49 Set BSDF property: Metallic=0.5075742372419119 Specular=0.6171023912016774 Roughness=0.2918477090191913
+2025-12-08 22:53:49 Set image texture: data/Texture_Images/2934000107_d2ff15c814.jpg
+2025-12-08 22:53:49 Set object texture for: collection_3_cone_distractor
+2025-12-08 22:53:49 Final texture type: 3 (random texture=0, color texture=1, image texture=2, procedural texture=3, material texture=4, none=5)
+2025-12-08 22:53:49 Set BSDF Metallic: 0.0
+2025-12-08 22:53:49 Set BSDF Specular: 0.6655733540952018
+2025-12-08 22:53:49 Set BSDF Roughness: 0.5131553131939447
+2025-12-08 22:53:49 Set material texture: data/PBR_Textures/Metal046B ['Metal046B_2K-JPG.tres', 'Metal046B_2K-JPG_Color.jpg', 'Metal046B_2K-JPG.mtlx', 'Metal046B_2K-JPG_Metalness.jpg', 'Metal046B_2K-JPG_NormalDX.jpg', 'Metal046B_2K-JPG.blend', 'Metal046B_2K-JPG.usdc', 'Metal046B_2K-JPG_NormalGL.jpg', 'Metal046B_2K-JPG_Displacement.jpg', 'Metal046B_2K-JPG_Roughness.jpg', 'Metal046B.png']
+2025-12-08 22:53:49 Set object texture for: collection_5_cube_distractor
+2025-12-08 22:53:49 Final texture type: 2 (random texture=0, color texture=1, image texture=2, procedural texture=3, material texture=4, none=5)
+2025-12-08 22:53:49 Set BSDF property: Metallic=0.6162543241347282 Specular=0.6230710755844053 Roughness=0.6743066005825065
+2025-12-08 22:53:49 Set image texture: data/Texture_Images/2419591925_1038c6c570.jpg
+2025-12-08 22:53:49 Set object texture for: collection_body.obj_object
+2025-12-08 22:53:49 Final texture type: 1 (random texture=0, color texture=1, image texture=2, procedural texture=3, material texture=4, none=5)
+2025-12-08 22:53:49 Set BSDF property: Metallic=0.6785319003458611 Specular=0.46696152801699226 Roughness=0.5047602727285643
+2025-12-08 22:53:49 Set color texture: (0.9780127713066766, 0.4903573579781092, 0.7675511310855506, 1.0)
+2025-12-08 22:53:49 Set object texture for: collection_ball.obj_object
+2025-12-08 22:53:49 Final texture type: 2 (random texture=0, color texture=1, image texture=2, procedural texture=3, material texture=4, none=5)
+2025-12-08 22:53:49 Set BSDF property: Metallic=0.2900615023210114 Specular=0.6082772320460954 Roughness=0.35731592421391256
+2025-12-08 22:53:49 Set image texture: data/Texture_Images/2029280005_a19609c81a.jpg
+2025-12-08 22:53:49 Set object texture for: collection_cable_shoe.obj_object
+2025-12-08 22:53:49 Final texture type: 2 (random texture=0, color texture=1, image texture=2, procedural texture=3, material texture=4, none=5)
+2025-12-08 22:53:49 Set BSDF property: Metallic=0.6882961506870001 Specular=0.5511426140411021 Roughness=0.23868469414075094
+2025-12-08 22:53:49 Set image texture: data/Texture_Images/1389264266_8170bc1c54.jpg
+2025-12-08 22:53:49 Set object texture for: collection_bonnet.obj_object_1_duplicate
+2025-12-08 22:53:49 Final texture type: 1 (random texture=0, color texture=1, image texture=2, procedural texture=3, material texture=4, none=5)
+2025-12-08 22:53:49 Set BSDF property: Metallic=0.6584206856425929 Specular=0.6262857134120081 Roughness=0.6905180117931262
+2025-12-08 22:53:49 Set color texture: (0.7218056962309015, 0.7046273584038867, 0.945335504111205, 1.0)
+2025-12-08 22:53:49 Set object texture for: collection_bonnet.obj_object
+2025-12-08 22:53:49 Final texture type: 3 (random texture=0, color texture=1, image texture=2, procedural texture=3, material texture=4, none=5)
+2025-12-08 22:53:49 Set BSDF Metallic: 0.0
+2025-12-08 22:53:49 Set BSDF Specular: 0.5157439952013504
+2025-12-08 22:53:49 Set BSDF Roughness: 0.33626780227313036
+2025-12-08 22:53:49 Set material texture: data/PBR_Textures/Metal049A ['Metal049A.png', 'Metal049A_2K-JPG_Metalness.jpg', 'Metal049A_2K-JPG_Color.jpg', 'Metal049A_2K-JPG_Displacement.jpg', 'Metal049A_2K-JPG.usdc', 'Metal049A_2K-JPG_NormalDX.jpg', 'Metal049A_2K-JPG_NormalGL.jpg', 'Metal049A_2K-JPG_Roughness.jpg', 'Metal049A_2K-JPG.blend', 'Metal049A_2K-JPG.mtlx', 'Metal049A_2K-JPG.tres']
+2025-12-08 22:53:49 Set object texture for: collection_L-bracket.obj_object
+2025-12-08 22:53:49 Final texture type: 3 (random texture=0, color texture=1, image texture=2, procedural texture=3, material texture=4, none=5)
+2025-12-08 22:53:49 Set BSDF Metallic: 0.0
+2025-12-08 22:53:49 Set BSDF Specular: 0.28484924714817184
+2025-12-08 22:53:49 Set BSDF Roughness: 0.3148043660887621
+2025-12-08 22:53:49 Set material texture: data/PBR_Textures/Metal055A ['Metal055A_2K-JPG_Metalness.jpg', 'Metal055A_2K-JPG_NormalDX.jpg', 'Metal055A_2K-JPG_Color.jpg', 'Metal055A_2K-JPG.tres', 'Metal055A_2K-JPG.blend', 'Metal055A.png', 'Metal055A_2K-JPG.mtlx', 'Metal055A_2K-JPG_Roughness.jpg', 'Metal055A_2K-JPG_Displacement.jpg', 'Metal055A_2K-JPG.usdc', 'Metal055A_2K-JPG_NormalGL.jpg']
+2025-12-08 22:53:49 Set object texture for: collection_2_icosphere_distractor
+2025-12-08 22:53:49 Final texture type: 2 (random texture=0, color texture=1, image texture=2, procedural texture=3, material texture=4, none=5)
+2025-12-08 22:53:49 Set BSDF property: Metallic=0.7845793202743305 Specular=0.28334792900015354 Roughness=0.7385003114173265
+2025-12-08 22:53:49 Set image texture: data/Texture_Images/241347635_e691395c2f.jpg
+2025-12-08 22:53:49 Set object texture for: collection_8_uvsphere_distractor
+2025-12-08 22:53:49 Final texture type: 1 (random texture=0, color texture=1, image texture=2, procedural texture=3, material texture=4, none=5)
+2025-12-08 22:53:49 Set BSDF property: Metallic=0.3376578547044123 Specular=0.20323583739773377 Roughness=0.6860926265966352
+2025-12-08 22:53:49 Set color texture: (0.3755868966101128, 0.23334534810223706, 0.6043992247702504, 1.0)
+2025-12-08 22:53:49 Set object texture for: collection_9_cylinder_distractor
+2025-12-08 22:53:49 Final texture type: 2 (random texture=0, color texture=1, image texture=2, procedural texture=3, material texture=4, none=5)
+2025-12-08 22:53:49 Set BSDF property: Metallic=0.31180408631103174 Specular=0.7869066663319233 Roughness=0.6629555885173892
+2025-12-08 22:53:49 Set image texture: data/Texture_Images/1998457059_c9ac9a1e1a.jpg
+2025-12-08 22:53:49 Set object texture for: collection_1_icosphere_distractor
+2025-12-08 22:53:49 Final texture type: 3 (random texture=0, color texture=1, image texture=2, procedural texture=3, material texture=4, none=5)

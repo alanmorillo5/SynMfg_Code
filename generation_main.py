@@ -46,9 +46,9 @@ def run_command(command, progress_queue, verbose):
         last_message_time = [time.time()]
         timeout = 300
         def check_timeout():
-            if time.time() - last_message_time[0] > timeout:
-                process.kill()
-                raise Exception("Process timed out due to inactivity.")
+            # Only fail if the process actually died
+            if process.poll() is not None:
+                raise Exception("Blender process exited unexpectedly.")
 
         def monitor_process():
             while process.poll() is None:  # While process is running
