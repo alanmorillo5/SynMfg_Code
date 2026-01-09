@@ -11,7 +11,7 @@
         "blender_work_path": "blender_saves",
         "segmentation_work_path": "segmentations",
         "bbox_img_work_path": "bbox_imgs",
-        "models_path": "data/Objects/Robotic"
+        "models_path": "data/Objects/Waldo"
     },
     "user": {
         "generate_nr_samples" : 20,
