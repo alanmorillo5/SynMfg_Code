@@ -31,37 +31,21 @@ def run_command(command, progress_queue, verbose):
     complete = False
 
     # command to start blender instance
-    process_command = command[0]
+    base_command = command[0]
     # list of filenames to render
     filename_list = list(range(command[1], command[2]))
     # index of the blender instance
     process_index = command[3]
 
     while not complete:
-
+        # Copy command to avoid appending arguments multiple times on restart
+        process_command = base_command.copy()
         process_command.append(json.dumps(filename_list))
 
         process = subprocess.Popen(process_command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, bufsize=1)
 
-        last_message_time = [time.time()]
-        timeout = 300
-        def check_timeout():
-            # Only fail if the process actually died
-            if process.poll() is not None:
-                raise Exception("Blender process exited unexpectedly.")
-
-        def monitor_process():
-            while process.poll() is None:  # While process is running
-                time.sleep(1)
-                check_timeout()
-
-        monitor_thread = threading.Thread(target=monitor_process)
-        monitor_thread.start()
-
         try:
             for line in process.stdout:
-                last_message_time[0] = time.time()  # Update the last message time
-
                 if "PROGRESS" in line:
                     progress_queue.put(1)
                 elif  ("GENERATION_SUCCESSFUL" in line) or ("GENERATION_FAILURE" in line):
@@ -79,17 +63,14 @@ def run_command(command, progress_queue, verbose):
                     print(str(process_index) + ": " + line.strip())
 
             process.communicate()
-            monitor_thread.join()  # Ensure monitor thread finishes
 
         except KeyboardInterrupt:
             print("KeyboardInterrupt caught. Terminating subprocess.")
             process.kill()
-            monitor_thread.join()
             break
 
         except Exception as e:
             print(e)
-            monitor_thread.join()  # Ensure monitor thread finishes
             continue  # Restart the process
 
 def clear_directory(directory_path):

@@ -717,15 +717,15 @@ def set_image_texture(material, img_dir, log_path=None, log_filename=None, log_v
 
     # Start select a random image file
     files = [file for file in os.listdir(img_dir) if file.lower().endswith(valid_extensions)]
-    random_file = random.choice(files)
+    if not files:
+        raise Exception("No valid image files found in directory: " + str(img_dir))
 
-    check_random_file_exist = str(random_file)
-
-    while check_random_file_exist in used_texture_image:
+    available_files = [f for f in files if f not in used_texture_image]
+    if available_files:
+        random_file = random.choice(available_files)
+        used_texture_image.add(random_file)
+    else:
         random_file = random.choice(files)
-        check_random_file_exist = str(random_file)
-
-    used_texture_image.add(check_random_file_exist)
 
     file_path = os.path.join(img_dir, random_file)
     # End select a random image file
@@ -757,15 +757,15 @@ def set_pbr_texture(material, pbr_dir, log_path=None, log_filename=None, log_ver
     :return: Material with PBR properties applied.
     """
     folders = [folder for folder in os.listdir(pbr_dir) if os.path.isdir(os.path.join(pbr_dir, folder))]
-    random_folder = random.choice(folders)
+    if not folders:
+        raise Exception("No PBR folders found in directory: " + str(pbr_dir))
 
-    check_random_folder_exist = str(random_folder)
-
-    while check_random_folder_exist in used_texture_pbr:
+    available_folders = [f for f in folders if f not in used_texture_pbr]
+    if available_folders:
+        random_folder = random.choice(available_folders)
+        used_texture_pbr.add(random_folder)
+    else:
         random_folder = random.choice(folders)
-        check_random_folder_exist = str(random_folder)
-
-    used_texture_pbr.add(check_random_folder_exist)
 
     folder_path = os.path.join(pbr_dir, random_folder)
 
@@ -2196,6 +2196,9 @@ if __name__ == '__main__':
                 print(traceback.format_exc())
                 print_to_log(config_sys_render_log_path, config_sys_render_log_filename, log_message,
                              config_sys_render_log_verbose)
+
+                if filename in filenames:
+                    filenames.remove(filename)
 
         if len(filenames) != 0:
             print("Files left to render!" + str(filenames))

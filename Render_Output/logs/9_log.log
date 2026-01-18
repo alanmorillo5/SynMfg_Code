@@ -1,0 +1,38 @@
+2026-01-18 14:49:48 Set object texture for: collection_3_cone_distractor
+2026-01-18 14:49:48 Final texture type: 3 (random texture=0, color texture=1, image texture=2, procedural texture=3, material texture=4, none=5)
+2026-01-18 14:49:48 Set BSDF Metallic: 0.0
+2026-01-18 14:49:48 Set BSDF Specular: 0.7385627663567447
+2026-01-18 14:49:48 Set BSDF Roughness: 0.5005354219013082
+2026-01-18 14:49:48 Set material texture: data/PBR_Textures/Metal028_1K-JPG ['Metal028_1K-JPG_NormalGL.jpg', 'Metal028_1K-JPG_Color.jpg', 'Metal028_1K-JPG.usdc', 'Metal028_1K-JPG_Roughness.jpg', 'Metal028.png', 'Metal028_1K-JPG_Displacement.jpg', 'Metal028_1K-JPG.blend', 'Metal028_1K-JPG_NormalDX.jpg', 'Metal028_1K-JPG.mtlx', 'Metal028_1K-JPG.tres', 'Metal028_1K-JPG_Metalness.jpg']
+2026-01-18 14:49:48 Set object texture for: collection_2_uvsphere_distractor
+2026-01-18 14:49:48 Final texture type: 3 (random texture=0, color texture=1, image texture=2, procedural texture=3, material texture=4, none=5)
+2026-01-18 14:49:48 Set BSDF Metallic: 0.0
+2026-01-18 14:49:48 Set BSDF Specular: 0.42262894169252185
+2026-01-18 14:49:48 Set BSDF Roughness: 0.7000982282437873
+2026-01-18 14:49:48 Set material texture: data/PBR_Textures/Metal027_1K-JPG ['Metal027_1K-JPG.usdc', 'Metal027_1K-JPG.blend', 'Metal027_1K-JPG_NormalGL.jpg', 'Metal027_1K-JPG_Roughness.jpg', 'Metal027.png', 'Metal027_1K-JPG_Color.jpg', 'Metal027_1K-JPG.mtlx', 'Metal027_1K-JPG_Displacement.jpg', 'Metal027_1K-JPG_NormalDX.jpg', 'Metal027_1K-JPG.tres', 'Metal027_1K-JPG_Metalness.jpg']
+2026-01-18 14:49:48 Set object texture for: collection_5_monkey_distractor
+2026-01-18 14:49:48 Final texture type: 3 (random texture=0, color texture=1, image texture=2, procedural texture=3, material texture=4, none=5)
+2026-01-18 14:49:48 Set BSDF Metallic: 0.0
+2026-01-18 14:49:48 Set BSDF Specular: 0.7304849770388007
+2026-01-18 14:49:48 Set BSDF Roughness: 0.2487370976800935
+2026-01-18 14:49:48 Set material texture: data/PBR_Textures/Metal028_1K-JPG ['Metal028_1K-JPG_NormalGL.jpg', 'Metal028_1K-JPG_Color.jpg', 'Metal028_1K-JPG.usdc', 'Metal028_1K-JPG_Roughness.jpg', 'Metal028.png', 'Metal028_1K-JPG_Displacement.jpg', 'Metal028_1K-JPG.blend', 'Metal028_1K-JPG_NormalDX.jpg', 'Metal028_1K-JPG.mtlx', 'Metal028_1K-JPG.tres', 'Metal028_1K-JPG_Metalness.jpg']
+2026-01-18 14:49:48 Set object texture for: collection_4_monkey_distractor
+2026-01-18 14:49:48 Final texture type: 3 (random texture=0, color texture=1, image texture=2, procedural texture=3, material texture=4, none=5)
+2026-01-18 14:49:48 Set BSDF Metallic: 0.0
+2026-01-18 14:49:48 Set BSDF Specular: 0.7982505956586348
+2026-01-18 14:49:48 Set BSDF Roughness: 0.35686733300391527
+2026-01-18 14:49:48 Set material texture: data/PBR_Textures/Metal027_1K-JPG ['Metal027_1K-JPG.usdc', 'Metal027_1K-JPG.blend', 'Metal027_1K-JPG_NormalGL.jpg', 'Metal027_1K-JPG_Roughness.jpg', 'Metal027.png', 'Metal027_1K-JPG_Color.jpg', 'Metal027_1K-JPG.mtlx', 'Metal027_1K-JPG_Displacement.jpg', 'Metal027_1K-JPG_NormalDX.jpg', 'Metal027_1K-JPG.tres', 'Metal027_1K-JPG_Metalness.jpg']
+2026-01-18 14:49:48 Set object texture for: collection_1_icosphere_distractor
+2026-01-18 14:49:48 Final texture type: 3 (random texture=0, color texture=1, image texture=2, procedural texture=3, material texture=4, none=5)
+2026-01-18 14:49:48 Set BSDF Metallic: 0.0
+2026-01-18 14:49:48 Set BSDF Specular: 0.3018505571854749
+2026-01-18 14:49:48 Set BSDF Roughness: 0.7604051664385143
+2026-01-18 14:49:48 Set material texture: data/PBR_Textures/Metal027_1K-JPG ['Metal027_1K-JPG.usdc', 'Metal027_1K-JPG.blend', 'Metal027_1K-JPG_NormalGL.jpg', 'Metal027_1K-JPG_Roughness.jpg', 'Metal027.png', 'Metal027_1K-JPG_Color.jpg', 'Metal027_1K-JPG.mtlx', 'Metal027_1K-JPG_Displacement.jpg', 'Metal027_1K-JPG_NormalDX.jpg', 'Metal027_1K-JPG.tres', 'Metal027_1K-JPG_Metalness.jpg']
+2026-01-18 14:49:48 Get ground_plane_diagonal=0.4242640687119285, ground_plane_diagonal_scale=0.5
+2026-01-18 14:49:48 Set camera: r=0.5892556509887895 phi=10.531634781702222 theta=240.02630581278464 zoom_scale=0.5
+2026-01-18 14:49:48 Set camera focal length =58.03400568426927
+2026-01-18 14:49:48 Set num of lights: 2
+2026-01-18 14:49:48 Set lights #0: location: <Vector (-0.2200, -0.5352, 1.2964)> energy: 65.23351287841797 color: <Color (r=0.0981, g=0.1459, b=0.0207)>
+2026-01-18 14:49:48 Set lights #1: location: <Vector (0.3000, 0.2772, 1.2964)> energy: 149.17832946777344 color: <Color (r=0.0377, g=0.7791, b=0.8098)>
+2026-01-18 14:50:08 Rendered image to path: /Users/alanmorillo/waldo/SynMfg_Code/Render_Output/images filename: 9
+2026-01-18 14:50:08 Time passed: 19.71173906326294

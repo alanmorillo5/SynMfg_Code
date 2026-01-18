@@ -14,17 +14,17 @@
         "models_path": "data/Objects/Waldo"
     },
     "user": {
-        "generate_nr_samples" : 20,
+        "generate_nr_samples" : 150,
         "nr_blender_instances" : 2,
         "render_image_width": 720,
         "render_image_height": 720,
-        "render_image_format": "PNG",
+        "render_image_format": "JPEG",
         "render_engine": 0,
         "eevee_postprocessing": true,
         "total_distracting_objects": 10,
         "distracting_objects_type": 0,
         "background_texture_type": 2,
-        "objects_texture_type": 0,
+        "objects_texture_type": 3,
         "object_rotation_x_min": 0.0,
         "object_rotation_x_max": 360.0,
         "object_rotation_y_min": 0.0,
@@ -75,6 +75,6 @@
         "bbox_imgs": true,
         "faster_bboxes": true,
         "background_samples": true,
-        "object_label": {"L-Bracket": "0", "U-Bracket": "1", "Angle_Bracket": "2", "Seat": "3", "Pipe_Clamp":"4", "Handle":"5", "Bonnet":"6", "Body":"7", "Ball":"8", "Cable_Shoe":"9"}
+        "object_label": {"Screw": 0}
     }
 }
