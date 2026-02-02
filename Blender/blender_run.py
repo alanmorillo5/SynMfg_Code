@@ -1491,7 +1491,7 @@ if __name__ == '__main__':
         model_path = os.path.join(models_path, model)
         model_label = model
 
-        bpy.ops.wm.obj_import(filepath=model_path)
+        bpy.ops.wm.obj_import(filepath=model_path, global_scale=0.03)
         bpy.ops.object.transform_apply(location=True, rotation=True, scale=True)
         collection_name = "collection_" + model + "_object"
         bpy.ops.object.move_to_collection(collection_index=0, is_new=True,
