@@ -1895,6 +1895,8 @@ if __name__ == '__main__':
 
                 # Get the center of all objects in the scene
 
+                mesh_objs = []
+
                 if len(obj_files) != 0:
                     mesh_objs = [obj for obj in bpy.data.objects if
                                  obj.type == 'MESH' and obj.name.startswith("object_") and not obj.name.startswith(

@@ -18,7 +18,7 @@
         "nr_blender_instances" : 3,
         "render_image_width": 720,
         "render_image_height": 720,
-        "render_image_format": "JPEG",
+        "render_image_format": "PNG",
         "render_engine": 0,
         "eevee_postprocessing": true,
         "total_distracting_objects": 0,
