@@ -1,15 +1,48 @@
-# Domain Randomization for Object Detection in Manufacturing Applications using Synthetic Data: A Comprehensive Study
-
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-**This repo contains the source code and dataset for our ICRA 2025 paper (accepted, to appear). The full paper is available on arXiv: [arxiv.org/abs/2506.07539](https://www.arxiv.org/abs/2506.07539).**  
-  
+## Related Publications
+
+**This repository contains the source code and datasets for our ICRA 2025 and ICCVW 2025 papers:**
+
+### 📌 ICRA 2025, focus on individual objects (logistics use cases)
+X. Zhu, J. Henningsson, D. Li, P. Mårtensson, L. Hanson, M. Björkman, and A. Maki,  
+*"Domain Randomization for Object Detection in Manufacturing Applications Using Synthetic Data: A Comprehensive Study,"*  
+Proceedings of the **2025 IEEE International Conference on Robotics and Automation (ICRA)**, Atlanta, GA, USA, 2025, pp. 16715–16721.  
+📄 [Paper (IEEE Xplore)](https://ieeexplore.ieee.org/document/11128647)
+
+### 📌 ICCVW 2025, focus on assembly objects, two objects aligned to each other (assembly use cases). 
+X. Zhu, J. Henningsson, D. Li, P. Mårtensson, L. Hanson, M. Björkman, and A. Maki,  
+*"Towards Automated Assembly Quality Inspection with Synthetic Data and Domain Randomization,"*  
+Proceedings of the **IEEE/CVF International Conference on Computer Vision (ICCV) Workshops**, October 2025, pp. 1395–1403.  
+📄 [Paper (CVF Open Access)](https://openaccess.thecvf.com/content/ICCV2025W/VISION%2725/html/Zhu_Towards_Automated_Assembly_Quality_Inspection_with_Synthetic_Data_and_Domain_ICCVW_2025_paper.html)  
+For assembled objects, you should follow the [Object Preparation](https://github.com/mandyxiaomeng/SynMfg/tree/main/data/Objects) to prepare the CAD models.  
+
+**This repository is also part of a broader research line on synthetic data for manufacturing vision systems.**    
+### ➡️ Subsequent Work
+This work focuses on generating a static synthetic dataset and training an object detection model without using any real data. In our subsequent work, we extend this approach with **Synthetic Active Learning (SAL)**, where synthetic data is iteratively generated to target the model’s weaknesses and continuously improve detection performance. If you are interested, please refer to our  
+📄 Journal of Manufacturing Systems paper: [Designing Synthetic Active Learning for Model Refinement in Manufacturing Parts Detection](https://doi.org/10.1016/j.jmsy.2025.11.023).  
+And its 💻 GitHub Repo: [**SAL**](https://github.com/jacobhenningsson95/Synthetic_Active_Learning_Code).  
+
+### ⬅️ Previous Work
+This work focuses on **object detection** tasks; our previous work focused on the **classification** task. We introduced a synthetic classification dataset and systematically evaluated sim-to-real transfer for manufacturing components. For details, please refer to our previous paper:  
+📄 CVPRW paper: [Towards Sim-to-Real Industrial Parts Classification With Synthetic Dataset](https://openaccess.thecvf.com/content/CVPR2023W/VISION/html/Zhu_Towards_Sim-to-Real_Industrial_Parts_Classification_With_Synthetic_Dataset_CVPRW_2023_paper.html)  
+and its 💻 GitHub Repo: [**SIP-17**](https://github.com/BilalTalha/SIP-17/tree/main)  
+
+
+
+## Related Datasets  
+
 This code generates synthetic data from 3D models using domain randomization. We use two datasets to generate synthetic images and train an object detection model, which performs well on real-world data.  
 1. **Robotic Dataset**: Published by [Horváth et al.](https://ieeexplore.ieee.org/document/9916581), this dataset includes both 3D models and real images.
    - 📂 **3D Models**: Located in `data/Objects/Robotic/`, containing 10 `.obj` files.
    - 🖼️ **Real Images**: Download from [Dropbox – Public Robotic Dataset](https://www.dropbox.com/scl/fo/inrb5pydc9y67py9m24xw/AHrNJUr0ANkux2wlX72Txxw?rlkey=pkpuxq2hbejbhhgkxz1e860p6&st=xcij40fl&dl=0). We We use the `yolo_cropped_all` subset for real-image evaluation.
 
-2.  **SIP15-OD Dataset**: Developed by us. It contains 15 manufacturing object 3D models across three use cases, along with 395 real images featuring 996 annotated objects taken in various manufacturing environments. The SIP15-OD dataset will be released soon.
+2.  **SIP15-OD Dataset**: Developed by us. It contains 15 manufacturing object 3D models across three use cases, along with 395 real images featuring 996 annotated objects taken in various manufacturing environments.  
+Due to company policy, the **original CAD models cannot be publicly released**. However, the **real-world annotated images** are available via: [Roboflow-SIP15OD](https://app.roboflow.com/mandyresearch/projects?group=fEeYdP7eB7sQNcVG7PS5).  
+
+2.  **SIP2A-OD Dataset**: Developed by our team, this dataset focuses on two assembly use cases and contains 249 annotated real-world images collected from diverse industrial environments.
+Due to company policy, the **original CAD models cannot be publicly released**. However, the **real-world annotated images** are available via: [Roboflow-SIP2AOD](https://app.roboflow.com/mandyresearch/projects?group=hujtblPzeBd7smpQOWOk).  
+
 
 Below are samples of the synthetic data and their real-world counterparts from the robotic dataset, as well as the three use cases from the SIP-15-OD dataset.  
 
@@ -28,6 +61,33 @@ Below are samples of the synthetic data and their real-world counterparts from t
   </tr>
 </table>
 
+# Introduction  
+
+This repository presents our domain randomization pipeline for synthetic data generation in manufacturing object detection.
+
+The pipeline generates synthetic images using **Blender**, where domain randomization is applied across five components of the generation process:
+
+- 3D scene initialization  
+- Object sampling  
+- Illumination sampling  
+- Camera view capture  
+- Post-processing  
+
+From parameter configuration to rendering and automatic ground-truth annotation, the system produces fully labeled synthetic datasets. These synthetic images are used to train an object detection model, which is then evaluated on real-world test data to assess sim-to-real performance.
+
+<p align="center">
+  <img src="Figures/flowchat.jpg" width="900"/>
+</p>
+<p align="center">
+  <em>Domain randomization pipeline: synthetic data generation in Blender followed by model training on synthetic data and evaluation on real images.</em>
+</p>
+
+Through systematic experiments, we identify material properties, rendering methods, post-processing strategies, and distractors as critical factors for real-world generalization.
+
+Training exclusively on synthetic data, the proposed pipeline achieves **96.4% mAP@50** on the public robotics dataset and **94.1%, 99.5%, and 95.3% mAP@50** across the three SIP15-OD use cases. These results demonstrate that carefully designed domain randomization can approximate real industrial data distributions without requiring real training images.  
+
+
+# Getting Started  
 
 ## Setup Python environment
 
@@ -162,22 +222,31 @@ We also thank previous works in domain randomization for industrial applications
 
 We acknowledge the contributions of the YOLOv8 model from Ultralytics, which we used for training our model.
 
-## Citation 
-If you find our work helpful for your research, please consider citing the following BibTeX entry.
-```
-@inproceedings{Zhu2025,
-  author    = {Zhu, Xiaomeng and Henningsson, Jacob and Li, Duruo and M{\aa}rtensson, P{\aa}r and Hanson, Lars and Bj{\"o}rkman, M{\aa}rten and Maki, Atsuto},
-  title     = {Domain Randomization for Object Detection in Manufacturing Applications using Synthetic Data: A Comprehensive Study},
-  booktitle = {Proceedings of the IEEE International Conference on Robotics and Automation (ICRA)},
+## Citation
+
+If you find our work helpful for your research, please consider citing:
+
+### ICRA 2025 (Separated objects, logistics use cases)
+
+```bibtex
+@inproceedings{Zhu2025ICRA,
+  author    = {Zhu, Xiaomeng and Henningsson, Jacob and Li, Duruo and Mårtensson, Pär and Hanson, Lars and Björkman, Mårten and Maki, Atsuto},
+  title     = {Domain Randomization for Object Detection in Manufacturing Applications Using Synthetic Data: A Comprehensive Study},
+  booktitle = {2025 IEEE International Conference on Robotics and Automation (ICRA)},
   year      = {2025},
-  note      = {Accepted for publication. To appear.}
-}
-```
+  pages     = {16715--16721},
+  doi       = {10.1109/ICRA55743.2025.11128647}
+}  
+```  
 
-<!--
-## Citation 
-If you find our work helpful for your research, please consider citing the following BibTeX entry.
+### ICCVW 2025 (Assembled objects, assembly use cases)
 
-To be added.
--->
-
+```bibtex
+@inproceedings{Zhu2025ICCVW,
+  author    = {Zhu, Xiaomeng and Henningsson, Jacob and Li, Duruo and M{\aa}rtensson, P{\aa}r and Hanson, Lars and Bj{\"o}rkman, M{\aa}rten and Maki, Atsuto},
+  title     = {Towards Automated Assembly Quality Inspection with Synthetic Data and Domain Randomization},
+  booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops},
+  year      = {2025},
+  pages     = {1395--1403}
+}  
+```  
